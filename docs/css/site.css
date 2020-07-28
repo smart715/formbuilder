@@ -1,0 +1,158 @@
+.wy-grid-for-nav {
+  position:relative;
+}
+
+.wy-body-for-nav {
+  background: #f2f2f2 url('https://formbuilder.online/assets/img/noise.png') repeat fixed;
+}
+
+.wy-nav-content {
+  max-width: inherit;
+}
+
+.wy-side-nav-search {
+  background-image: url('https://formbuilder.online/docs/img/logo-bg.svg'), linear-gradient(to bottom, #000, #92278F);
+  background-size: cover, 100% 100%;
+  background-position: 50% 0, 50% 0%;
+}
+
+.rst-content pre code {
+  color: #f8f8f2;
+  background-color: #23241f;
+  white-space: pre;
+  padding: 1em;
+  line-height: 1.5em;
+  border-width: 1px;
+}
+
+.rst-content code {
+  color: #000000;
+  background-color: #ffffff;
+  border-width: 0;
+}
+
+p {
+  line-height: 1.7em !important;
+}
+
+.wy-menu-vertical li.current > a {
+  color: #000;
+  background: #f2f2f2 url('https://formbuilder.online/assets/img/noise.png') repeat 50% 50%;
+}
+
+.wy-menu-vertical ul {
+  padding-left: 0;
+}
+
+.wy-menu-vertical a {
+  font-weight: normal;
+}
+
+.wy-menu-vertical p.caption {
+  margin-bottom: 0;
+}
+
+.wy-side-nav-search > a {
+  font-size: 200%;
+}
+
+.wy-nav-content-wrap {
+  background-color: transparent;
+}
+
+code.hljs {
+  position: relative;
+  overflow: hidden;
+}
+
+code.hljs .btn {
+  opacity: 0;
+  transition: opacity 333ms;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #cfcfcf;
+  border-radius: 0 0 0 5px;
+  box-shadow: none;
+  padding: 4px 6px;
+}
+
+code.hljs:hover .btn {
+  opacity: 1;
+  transition: opacity 333ms;
+}
+
+
+.success {
+  background: rgb(60, 227, 95) !important;
+}
+
+.info {
+  background: rgb(74, 199, 214) !important;
+}
+
+.warning {
+  background: rgb(255, 121, 0) !important;
+}
+
+.danger {
+  background: rgb(252, 69, 69) !important;
+}
+
+.toast {
+  padding: 10px 30px;
+  position: fixed;
+  width: auto;
+  line-height: 50px;
+  background: #3ce35f;
+  color: #fff;
+  bottom: 0;
+  right: 20px;
+  transform: translate(0, 100%);
+  animation: 2500ms toast ease-in-out forwards;
+  z-index: 120;
+}
+
+
+.home-link img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 1400px) {
+  .wy-nav-content {
+    margin: 0;
+    background: transparent;
+    max-width: inherit;
+  }
+}
+
+@keyframes toast {
+  0% {
+    transform: translate(0, 100%);
+    bottom: 0;
+    right: 20px;
+  }
+
+  7% {
+    transform: translate(0, 0);
+    bottom: 20px;
+    right: 20px;
+  }
+
+  90% {
+    transform: translate(0, 0);
+    bottom: 20px;
+    right: 20px;
+  }
+
+  100% {
+    transform: translate(120%, 0);
+    bottom: 20px;
+    right: 0;
+  }
+}

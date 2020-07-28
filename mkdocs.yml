@@ -1,0 +1,114 @@
+site_name: formBuilder
+site_url: https://formbuilder.online
+site_dir: site/public/docs
+repo_url: https://github.com/kevinchappell/formBuilder
+repo_name: 'GitHub'
+site_description: A jQuery plugin for drag and drop form creation
+theme:
+  name: readthedocs
+  custom_dir: docs/theme/
+  highlightjs: true
+  hljs_languages:
+    - bash
+    - javascript
+google_analytics: ['UA-4784386-21', 'formbuilder.online/docs']
+nav:
+- Introduction: index.md
+- Getting Started: getting-started.md
+- Development:
+  - Summary: development.md
+  - Overview: formBuilder/overview.md
+  - Controls: formBuilder/controls.md
+  - Control Plugins: formBuilder/control-plugins.md
+  - Icon Font: editing-fonts.md
+- formBuilder Demos:
+  - AngularJS: formBuilder/demos/angular.md
+  - Basic: formBuilder/demos/basic.md
+  - Custom Elements: formBuilder/options/templates.md
+  - Data: formBuilder/demos/data.md
+  - React: formBuilder/demos/react.md
+  - Tabbed/Multi-paged Forms: formBuilder/demos/tabs.md
+  - Toggle formBuilder: formBuilder/demos/toggle-builder.md
+  - Translating: formBuilder/demos/translation.md
+- formBuilder Actions:
+  - addField: formBuilder/actions/addField.md
+  - clearFields: formBuilder/actions/clearFields.md
+  - closeAllFieldEdit: formBuilder/actions/closeAllFieldEdit.md
+  - getData: formBuilder/actions/getData.md
+  - removeField: formBuilder/actions/removeField.md
+  - save: formBuilder/actions/save.md
+  - setData: formBuilder/actions/setData.md
+  - setLang: formBuilder/actions/setLang.md
+  - showData: formBuilder/actions/showData.md
+  - toggleAllFieldEdit: formBuilder/actions/toggleAllFieldEdit.md
+  - toggleFieldEdit: formBuilder/actions/toggleFieldEdit.md
+- formBuilder Options:
+  - actionButtons: formBuilder/options/actionButtons.md
+  - allowStageSort: formBuilder/options/allowStageSort.md
+  - append/prepend: formBuilder/options/appendPrepend.md
+  - controlOrder: formBuilder/options/controlOrder.md
+  - controlPosition: formBuilder/options/controlPosition.md
+  - dataType: formBuilder/options/dataType.md
+  - defaultFields: formBuilder/options/defaultFields.md
+  - disabledActionButtons: formBuilder/options/disabledActionButtons.md
+  - disabledAttrs: formBuilder/options/disabledAttrs.md
+  - disabledFieldButtons: formBuilder/options/disabledFieldButtons.md
+  - disabledSubtypes: formBuilder/options/disabledSubtypes.md
+  - disableFields: formBuilder/options/disableFields.md
+  - disableHTMLLabels: formBuilder/options/disableHTMLLabels.md
+  - disableInjectedStyle: formBuilder/options/disableInjectedStyle.md
+  - editOnAdd: formBuilder/options/editOnAdd.md
+  - fieldRemoveWarn: formBuilder/options/fieldRemoveWarn.md
+  - fields: formBuilder/options/fields.md
+  - formData: formBuilder/options/formData.md
+  - i18n: formBuilder/options/i18n.md
+  - inputSets: formBuilder/options/inputSets.md
+  - layout: formBuilder/options/layout.md
+  - layoutTemplates: formBuilder/options/layoutTemplates.md
+  - notify: formBuilder/options/notify.md
+  - onAddField: formBuilder/options/onAddField.md
+  - onAddFieldAfter: formBuilder/options/onAddFieldAfter.md
+  - onAddOption: formBuilder/options/onAddOption.md
+  - onClearAll: formBuilder/options/onClearAll.md
+  - onCloseFieldEdit: formBuilder/options/onCloseFieldEdit.md
+  - onOpenFieldEdit: formBuilder/options/onOpenFieldEdit.md
+  - onSave: formBuilder/options/onSave.md
+  - persistDefaultFields: formBuilder/options/persistDefaultFields.md
+  - replaceFields: formBuilder/options/replaceFields.md
+  - roles: formBuilder/options/roles.md
+  - scrollToFieldOnAdd: formBuilder/options/scrollToFieldOnAdd.md
+  - showActionButtons: formBuilder/options/showActionButtons.md
+  - sortableControls: formBuilder/options/sortableControls.md
+  - stickyControls: formBuilder/options/stickyControls.md
+  - subtypes: formBuilder/options/subtypes.md
+  - templates: formBuilder/options/templates.md
+  - typeUserAttrs: formBuilder/options/typeUserAttrs.md
+  - typeUserDisabledAttrs: formBuilder/options/typeUserDisabledAttrs.md
+  - typeUserEvents: formBuilder/options/typeUserEvents.md
+- formBuilder Promise: formBuilder/promise.md
+- formRender Demos:
+  - Basic: formRender/demos/basic.md
+  - Preview popup: formRender/demos/preview-popup.md
+- formRender Actions:
+  - clear: formRender/actions/clear.md
+  - html: formRender/actions/html.md
+  - render: formRender/actions/render.md
+  - setData: formRender/actions/setData.md
+  - userData: formRender/actions/userData.md
+- formRender Options:
+  - Overview: formRender/options.md
+  - container: formRender/options/container.md
+  - formData: formRender/options/formData.md
+  - layout: formRender/options/layout.md
+  - layoutTemplates: formRender/options/layoutTemplates.md
+  - render: formRender/options/render.md
+- Contributing: contributing.md
+- License: license.md
+extra_css:
+  - 'css/site.css'
+  - '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/monokai-sublime.min.css'
+extra_javascript:
+  - '//cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js'
+  - 'js/scripts.js'
+  - '//production-assets.codepen.io/assets/embed/ei.js'
+  - '//sidecar.gitter.im/dist/sidecar.v1.js'
